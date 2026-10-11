@@ -1,40 +1,41 @@
 # PaceWeek
 
-**Ta semaine en un coup d'œil, et une barre où il suffit de dire ce que tu as à faire.**
+**Your week at a glance, and a bar where you just say what you need to do.**
 
-PaceWeek est un planning personnel pour Mac, Windows et Linux. En haut, une frise montre tes prochaines échéances et le nombre de jours qui les séparent. En dessous, ta semaine : cours, travail, sport, trajets, blocs de révision et petites choses à cocher.
+PaceWeek is a personal weekly planner for Mac, Windows and Linux. At the top, a timeline shows your upcoming deadlines and how many days lie between them. Below it, your week: classes, work, sport, travel, study sessions and small things to tick off.
 
-![La semaine](images/week.png)
+![The week](images/week.png)
 
-## Comment ça marche
+## How it works
 
-1. **Tu remplis ta semaine type** au premier lancement : cours, travail, sport… Elle revient toute seule chaque semaine. Tu peux aussi importer un calendrier `.ics`.
-2. **Tu ajoutes tes échéances** : rendus, examens, objectifs. La frise les aligne et montre les périodes serrées.
-3. **Tu dis ce que tu as à faire**, à l'écrit ou à la voix : *« Exam de maths le 23, il me faut 6 h de révisions »*. L'appli propose des blocs de travail dans tes créneaux libres, et te montre toujours ce qu'elle a compris avant de changer quoi que ce soit.
-4. **Les trajets sont comptés pour toi** : chaque lieu a son moyen de transport et sa durée, et l'appli place l'aller et le retour.
+1. **Set up your typical week** on first launch: classes, work hours, sport… It comes back every week on its own. You can also import an `.ics` calendar.
+2. **Add your deadlines**: assignments, exams, goals. The timeline lines them up and makes busy stretches stand out.
+3. **Say what you need to do**, typed or spoken: *"Maths exam on the 23rd, I need 6 hours of revision."* PaceWeek suggests study sessions in your free time, and always shows you what it understood before changing anything.
+4. **Travel time is handled for you**: each place has its own way of getting there and duration, and PaceWeek adds the trip there and back.
 
-![L'assistant](images/assistant.png)
+![The assistant](images/assistant.png)
 
-Tes données restent **sur ton ordinateur**. La dictée est transcrite sur ton ordinateur, et l'assistant fonctionne avec l'IA de ton choix (Claude, ChatGPT, Gemini, ou une IA locale), ou sans IA du tout.
+<p>
+  <img src="images/week-dark.png" alt="Essentials mode, dark theme" width="49%">
+  <img src="images/month.png" alt="Month view" width="49%">
+</p>
 
-## Télécharger
+Your data stays **on your computer**. Dictation is transcribed on your computer too, and the assistant works with the AI of your choice (Claude, ChatGPT, Gemini, or a local model), or with no AI at all. Available in English and French.
 
-Prends la dernière version dans [**Releases**](../../releases/latest) :
+## Download
 
-- **Mac** (Apple Silicon et Intel) : le `.dmg`. Glisse PaceWeek dans Applications. Au premier lancement, fais **clic droit → Ouvrir**.
-- **Windows** : le `-setup.exe`. Si Windows affiche un avertissement, clique sur « Informations complémentaires » puis « Exécuter quand même ».
-- **Linux** : l'`.AppImage` (rends-la exécutable puis lance-la) ou le `.deb`.
+Get the latest version from [**Releases**](../../releases/latest):
 
-Ensuite, l'appli te propose elle-même les nouvelles versions. Tes données ne sont pas touchées.
+- **Mac** (Apple Silicon and Intel): the `.dmg`. Drag PaceWeek into Applications. The first time, **right-click → Open**. If macOS still blocks it, go to **System Settings → Privacy & Security** and click **Open Anyway**.
+- **Windows**: the `-setup.exe`. If Windows shows a warning, click "More info", then "Run anyway".
+- **Linux**: the `.AppImage` (make it executable, then run it) or the `.deb`.
 
-## Conditions
+After that, PaceWeek offers new versions by itself. Your data is never touched by an update.
 
-PaceWeek est **gratuit pour un usage personnel**. Il reste la propriété de son auteur : il est interdit de le vendre, de le modifier ou de le redistribuer. Les conditions complètes sont dans [LICENSE.md](LICENSE.md).
+## Terms
 
-Ce dépôt ne contient que les fichiers d'installation. Le code source n'est pas public.
+PaceWeek is **free for personal use**. It remains the property of its author: selling, modifying or redistributing it is not allowed. The full terms are in [LICENSE.md](LICENSE.md).
 
----
+This repository only holds the installers. The source code is not public.
 
-**English.** PaceWeek is a personal weekly planner for Mac, Windows and Linux: a timeline of your upcoming deadlines, your weekly routine, travel times, and a bar where you type or say what you need to do. It is free for personal use; selling, modifying or redistributing it is not allowed. See [LICENSE.md](LICENSE.md).
-
-© 2026 Thomas Sager. Tous droits réservés.
+© 2026 Thomas Sager. All rights reserved.
